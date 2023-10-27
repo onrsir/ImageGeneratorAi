@@ -75,6 +75,30 @@ const handleFormSubmisson = (e) => {
     imageGallery.innerHTML = imgCardMarkup;
     generateAiImages(userPromt,userImgQuantity)
 }
+console.log("target 0: " + userPromt + ", target 1: " + userImgQuantity);
+
+
+{/* <div class="img-card loading">
+<img src="images/loader.svg" alt="image">
+<a href="#" class="download-btn">
+    <img src="images/download.svg" alt="download icon"></a>         
+</div>
+`
+<div class="img-card loading">
+<img src="images/loader.svg" alt="image">
+<a href="#" class="download-btn">
+    <img src="images/download.svg" alt="download icon"></a>         
+</div>
+`
+<div class="img-card loading">
+<img src="images/loader.svg" alt="image">
+<a href="#" class="download-btn">
+    <img src="images/download.svg" alt="download icon"></a>         
+</div>
+` */}
+
+
+
 
 
 generateForm.addEventListener("submit", handleFormSubmisson);
